@@ -1,0 +1,50 @@
+@media screen and (max-width: 886px){
+
+  #about .about-content {
+    p {
+      font-size: 2.4vw;
+      letter-spacing: 0.2vw;
+      line-height: 3.7vw;
+      clear: both;
+      margin-top: 0%;
+    }
+
+    h1 {
+      margin-bottom: 2rem;
+    }
+    
+  }
+
+}
+
+
+
+
+@media screen and (max-width: 676px){
+
+  #about .about-content { 
+
+    p {
+      font-size: 3.0vw;
+      line-height: 4.7vw;
+      letter-spacing: 0.16vw;
+      clear: both;
+      margin-top: 0%;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+ }
+}
+
+@media screen and (max-width: 480px){
+
+  #about .about-content p {
+    font-size: 3.8vw;
+    line-height: 5.6vw;
+    margin-top: 0%;
+  }
+}

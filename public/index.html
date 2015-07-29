@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ng-Boilerplate</title>
+
+
+ 
+ <!-- Vendor Scripts -->  
+    <!-- jQuery / Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- Angular 1.3.8/ Google CDN -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.8/angular.min.js"></script>
+    <!-- Angular-ui-Router Google CDN-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.js"></script>
+
+    <script src="lib/dragend.js"></script>
+
+
+<!-- Application Scripts -->
+    <!-- Angular -->
+    <script src="app/application.js"></script>
+    <!-- All Site JS -->
+<!--     <script src="app/js/main.js"></script> -->
+
+
+
+  <!-- CSS Stylesheet Stack-->
+    <!-- Project Stylesheet/s -->
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    
+  <!-- set the base path for angular routing -->
+    <base href="/">
+
+
+  
+</head>
+<body ng-app="app" ng-controller="mainController as main">
+<main>
+
+<section id="sliding-nav-menu" draggable-navigation>
+
+
+<section id="home" class="dragend-page">
+  <a id="logo"></a>
+  <div class="home-content">
+  
+    <div class="mantra">
+      
+      <div class="greeting-container">
+        <h2 class="greeting">Hello,</br> we&rsquo;re Absvrd.</h2>
+        <hr>
+        <h3>A digital creative agency</h3>
+      </div>
+      
+    </div>
+
+
+    <div class="branding-imagery">
+      <img src="../img/resized-eleph.png" alt="Absvrd branding asset.">
+
+    </div>
+  </div>
+
+</section>
+  
+
+
+<!-- ================================================================================================================ -->
+    <!--                             ABOUT                  ABOUT         ABOUT             -->
+<!-- ================================================================================================================ -->
+<section id="about" class="dragend-page">
+  
+  <div class="about-content">
+    <h1>About.</h1>
+    <p>
+      Gastropub Tumblr XOXO chillwave single-origin coffee aesthetic. Butcher fashion axe Pitchfork, polaroid Wes Anderson pork belly brunch lo-fi Vice tofu lomo Shoreditch. Try-hard craft beer heirloom chillwave, meh put a bird on it bespoke Etsy actually drinking vinegar. Retro Austin hashtag Truffaut. Sartorial Williamsburg DIY, occupy craft beer Helvetica narwhal skateboard butcher keytar readymade gentrify dreamcatcher Carles fingerstache. Cornhole plaid slow-carb Neutra meditation photo booth. Chambray taxidermy ugh banh mi, next level four loko disrupt meggings readymade listicle roof party art party Kickstarter direct trade.
+    </p>
+  </div>
+
+  <div class="about-technology">
+    <h2>Technology</h2>
+    <div class="technology-box">
+      <div id="icon-container">
+          <div class="icon">
+            <img src="../img/ruby.png" alt="ruby on rails icon black and white">
+          </div>
+          
+          <div class="icon">
+            <img src="../img/angular.png" alt="angularjs icon black and white">
+          </div>
+          
+          <div class="icon">
+            <img src="../img/sass.png" alt="sass stylesheets icon black and white">
+          </div>
+          
+          <div class="icon">
+            
+          </div>
+          
+          <div class="icon">
+            <img src="../img/html.png" alt="html5 icon black and white">
+          </div>
+       </div>
+    </div>
+    
+  </div>
+
+</section>
+
+
+<!-- ================================================================================================================ -->
+                                  <!--       PROJECTS    PROJECTS -->
+<!-- ================================================================================================================ -->
+<section id="projects" class="dragend-page">
+  <div class="team-bio">
+    <div class="hero">
+      <img src="../img/skg-bio.png" alt="skg bio picture">
+      
+    </div>
+
+    <div class="team-content">
+      <h1>Team</h1>
+      <hr>
+      <h2>S.K. Grimes</h2>
+      <p>
+        tote bag deep v Bushwick, keytar Kickstarter fap scenester irony Pinterest iPhone migas Echo Park. Meggings dreamcatcher sartorial selvage gluten-free. Fap listicle health goth vegan tofu street art, small batch pop-up biodiesel gluten-free Marfa iPhone. Tilde cold-pressed occupy, Pinterest Truffaut distillery actually pour-over you probably haven't heard of them brunch Schlitz synth Austin. Mlkshk raw denim PBR, photo booth next level Kickstarter post-
+      </p>
+      
+    </div>
+    
+  </div>
+ 
+</section>
+  
+
+<!-- ================================================================================================================ -->
+<!--                   BLOG                            BLOG                                   BLOG       -->                  
+<!-- ================================================================================================================ -->
+
+
+</section>
+  <!-- main content and portal for routes -->
+
+      
+      <!-- angular templating-->      
+      <!-- angular templates render in the ng-view -->
+
+        
+
+            <div ui-view id="portal"></div>
+</main>
+
+
+</body>
+</html>
+
+
+
+       
+

@@ -1,0 +1,74 @@
+@charset "UTF-8";
+#about-page,#portal,body,html,main{height:100%;width:100%}
+*,:after,:before{box-sizing:inherit}
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline;box-sizing:border-box}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+body{line-height:1}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}
+table{border-collapse:collapse;border-spacing:0}
+#about-page{background:red}
+#about,#projects .team-bio,.home-content{position:relative;width:90%;margin:0 auto;padding:0}
+#about .about-content,#about .about-technology,#projects .team-bio .hero,#projects .team-bio .team-content,.home-content .branding-imagery,.mantra{float:left;width:100%;box-sizing:border-box}
+#about .about-content:first-child,#about .about-technology:first-child,#projects .team-bio .hero:first-child,#projects .team-bio .team-content:first-child,.home-content .branding-imagery:first-child,.mantra:first-child{margin-left:0}
+@media (min-width:550px){#about .about-content,#about .about-technology,#projects .team-bio .hero,#projects .team-bio .team-content,.home-content .branding-imagery,.mantra{margin-left:4%}
+#projects .team-bio .hero{width:30.6666666667%}
+.home-content .branding-imagery{width:39.3333333333%}
+.mantra{width:56.6666666667%}
+#projects .team-bio .team-content{width:65.3333333333%}
+#about .about-content,#about .about-technology{width:100%;margin-left:0}
+}
+@font-face{font-family:alegreyaregular;src:url(../fonts/alegreya/alegreya-regular-webfont.eot);src:url(../fonts/alegreya/alegreya-regular-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/alegreya/alegreya-regular-webfont.woff2) format("woff2"),url(../fonts/alegreya/alegreya-regular-webfont.woff) format("woff"),url(../fonts/alegreya/alegreya-regular-webfont.ttf) format("truetype"),url(../fonts/alegreya/alegreya-regular-webfont.svg#alegreyaregular) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:droidigaregular;src:url(../fonts/droidiga/droidiga-webfont.eot);src:url(../fonts/droidiga/droidiga-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/droidiga/droidiga-webfont.woff2) format("woff2"),url(../fonts/droidiga/droidiga-webfont.woff) format("woff"),url(../fonts/droidiga/droidiga-webfont.ttf) format("truetype"),url(../fonts/droidiga/droidiga-webfont.svg#droidigaregular) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:eagle_bookregular;src:url(../fonts/eagle-book/eagle-book-webfont.eot);src:url(../fonts/eagle-book/eagle-book-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/eagle-book/eagle-book-webfont.woff2) format("woff2"),url(../fonts/eagle-book/eagle-book-webfont.woff) format("woff"),url(../fonts/eagle-book/eagle-book-webfont.ttf) format("truetype"),url(../fonts/eagle-book/eagle-book-webfont.svg#eagle_bookregular) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:futura_md_btbold;src:url(../fonts/futura/futura-bold-webfont.eot);src:url(../fonts/futura/futura-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/futura/futura-bold-webfont.woff2) format("woff2"),url(../fonts/futura/futura-bold-webfont.woff) format("woff"),url(../fonts/futura/futura-bold-webfont.ttf) format("truetype"),url(../fonts/futura/futura-bold-webfont.svg#futura_md_btbold) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:gibsonbold;src:url(../fonts/gibson-bold/gibson-bold-webfont.eot);src:url(../fonts/gibson-bold/gibson-bold-webfont.eot?#iefix) format("embedded-opentype"),url(../fonts/gibson-bold/gibson-bold-webfont.woff2) format("woff2"),url(../fonts/gibson-bold/gibson-bold-webfont.woff) format("woff"),url(../fonts/gibson-bold/gibson-bold-webfont.ttf) format("truetype"),url(../fonts/gibson-bold/gibson-bold-webfont.svg#gibsonbold) format("svg");font-weight:400;font-style:normal}
+#sliding-nav-menu{position:absolute;top:0;left:0;width:100%;height:100%;background:#457;cursor:hand;cursor:-moz-grab;cursor:-webkit-grab;cursor:grab}
+#home{background:#fe5d47;height:100%}
+.home-content{height:60%;position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+.home-content .branding-imagery{height:100%;padding:0 5%}
+.home-content .branding-imagery img{max-width:500px;background-size:100%;width:100%;display:block;height:auto;z-index:99;transform:translateY(-50%)}
+.home-content .branding-imagery img,.mantra{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%)}
+.mantra{transform:translateY(-50%)}
+.greeting-container{width:100%;height:100%}
+.greeting-container h2{font-family:gibsonbold,sans-serif;font-weight:700;text-transform:uppercase;font-size:7.35vw;text-align:right;letter-spacing:-.5vw;white-space:nowrap;line-height:7.3vw}
+.greeting-container hr{width:50%;height:20px;background:#000;float:right;border:0;display:block;margin-top:2%}
+.greeting-container h3{font-family:Georgia,helvetica;text-align:right;text-transform:uppercase;font-size:2vw;letter-spacing:.5vw;clear:both;margin-top:12%}
+#logo{position:absolute;background:url(../img/logo-alt.png) center no-repeat;background-size:100%;margin:20px;height:48px;width:48px}
+@media screen and (max-width:676px){.home-content{position:relative;height:80%;top:0;-webkit-transform:translateY(60px);-ms-transform:translateY(60px);transform:translateY(60px)}
+.home-content .branding-imagery{height:60%;transform:none;top:0;left:0;width:100%;padding:0;margin:0}
+.home-content .branding-imagery,.home-content .branding-imagery .image,.mantra{-webkit-transform:none;-moz-transform:none;-ms-transform:none;-o-transform:none}
+.home-content .branding-imagery .image{top:0;background-size:100%;width:auto;margin:0 auto;display:block;height:100%;position:relative}
+.mantra{height:40%;transform:none;top:0;width:100%}
+.mantra .greeting-container h2{font-size:11vw;letter-spacing:-.8vw;line-height:10.3vw}
+.mantra .greeting-container h3{font-size:4vw;letter-spacing:.7vw;clear:both;margin-top:8%}
+}
+@media screen and (max-width:480px){.mantra .greeting-container h2{font-size:12vw;letter-spacing:-.5vw;line-height:12.3vw}
+.mantra .greeting-container h3{font-size:4.6vw;letter-spacing:.7vw;clear:both;margin-top:8%}
+}
+#about .about-content h1{font-family:droidigaregular,futura_md_btbold,Helvetica,Arial,sans-serif;text-transform:uppercase;color:#f9f9f9;font-size:3rem;font-weight:700;margin-bottom:2rem}
+#about .about-content p{font-family:alegreyaregular,Georgia,Times,"Times New Roman",serif;text-align:justify;-moz-text-align-last:justify;text-align-last:justify;line-height:2.6vw;letter-spacing:.2vw;font-size:2.1vw;color:#f9f9f9}
+#about{height:100%;background:url(../img/lab-bg.png) center}
+#about .about-content{display:block;width:100%;height:60%;margin-top:5%;padding:0 8%}
+#about .about-technology{position:absolute;bottom:0;left:0;height:20%;background:#fcc}
+#about .about-technology h2{background:#fb5e4d;color:#f9f9f9;font-family:gibsonbold,sans-serif;text-transform:uppercase;font-size:1.6vw;position:relative;text-align:center;width:16%;padding:.5rem 0;top:16%;left:14%;margin-top:-1%}
+#about .about-technology .technology-box{width:80%;margin:0 auto;height:60%;border:6px dotted #fb5e4d}
+#about .about-technology .technology-box #icon-container{width:50%;height:100%;margin:auto}
+#about .about-technology .technology-box #icon-container .icon{height:100%;width:auto;float:left;padding:0 auto;background:#000}
+#about .about-technology .technology-box #icon-container .icon img{width:auto;height:100%;vertical-align:middle;display:inline-block}
+@media screen and (max-width:886px){#about .about-content p{font-size:2.4vw;letter-spacing:.2vw;line-height:3.7vw;clear:both;margin-top:0}
+#about .about-content h1{margin-bottom:2rem}
+}
+@media screen and (max-width:676px){#about .about-content p{font-size:3vw;line-height:4.7vw;letter-spacing:.16vw;clear:both;margin-top:0}
+#about .about-content h1{font-size:2rem;margin-bottom:1rem}
+}
+@media screen and (max-width:480px){#about .about-content p{font-size:3.8vw;line-height:5.6vw;margin-top:0}
+}
+#projects{width:100%;height:100%;background:#033}
+#projects .team-bio,#projects .team-bio .hero{height:100%}
+#projects .team-bio .hero img{transform:translateY(-50%);width:100%;height:auto}
+#projects .team-bio .hero img,#projects .team-bio .team-content{position:relative;top:50%;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%)}
+#projects .team-bio .team-content{height:60%;transform:translateY(-50%)}
+#projects .team-bio .team-content h1,#projects .team-bio .team-content h2,#projects .team-bio .team-content p{text-align:right;width:80%;margin-left:20%}
+#projects .team-bio .team-content hr{width:45%;border:0;background:#f9f9f9;height:3px;display:block;margin-left:55%}

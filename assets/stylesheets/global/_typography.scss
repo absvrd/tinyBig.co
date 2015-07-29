@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'alegreyaregular';
+    src: url('../fonts/alegreya/alegreya-regular-webfont.eot');
+    src: url('../fonts/alegreya/alegreya-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/alegreya/alegreya-regular-webfont.woff2') format('woff2'),
+         url('../fonts/alegreya/alegreya-regular-webfont.woff') format('woff'),
+         url('../fonts/alegreya/alegreya-regular-webfont.ttf') format('truetype'),
+         url('../fonts/alegreya/alegreya-regular-webfont.svg#alegreyaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'droidigaregular';
+    src: url('../fonts/droidiga/droidiga-webfont.eot');
+    src: url('../fonts/droidiga/droidiga-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/droidiga/droidiga-webfont.woff2') format('woff2'),
+         url('../fonts/droidiga/droidiga-webfont.woff') format('woff'),
+         url('../fonts/droidiga/droidiga-webfont.ttf') format('truetype'),
+         url('../fonts/droidiga/droidiga-webfont.svg#droidigaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'eagle_bookregular';
+    src: url('../fonts/eagle-book/eagle-book-webfont.eot');
+    src: url('../fonts/eagle-book/eagle-book-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/eagle-book/eagle-book-webfont.woff2') format('woff2'),
+         url('../fonts/eagle-book/eagle-book-webfont.woff') format('woff'),
+         url('../fonts/eagle-book/eagle-book-webfont.ttf') format('truetype'),
+         url('../fonts/eagle-book/eagle-book-webfont.svg#eagle_bookregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'futura_md_btbold';
+    src: url('../fonts/futura/futura-bold-webfont.eot');
+    src: url('../fonts/futura/futura-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futura/futura-bold-webfont.woff2') format('woff2'),
+         url('../fonts/futura/futura-bold-webfont.woff') format('woff'),
+         url('../fonts/futura/futura-bold-webfont.ttf') format('truetype'),
+         url('../fonts/futura/futura-bold-webfont.svg#futura_md_btbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'gibsonbold';
+    src: url('../fonts/gibson-bold/gibson-bold-webfont.eot');
+    src: url('../fonts/gibson-bold/gibson-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/gibson-bold/gibson-bold-webfont.woff2') format('woff2'),
+         url('../fonts/gibson-bold/gibson-bold-webfont.woff') format('woff'),
+         url('../fonts/gibson-bold/gibson-bold-webfont.ttf') format('truetype'),
+         url('../fonts/gibson-bold/gibson-bold-webfont.svg#gibsonbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+$pfont: 'alegreyaregular', Georgia, Times, 'Times New Roman', serif;
+$sctnfont: 'droidigaregular', 'futura_md_btbold', Helvetica, Arial, sans-serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Test Stack
+// #alegreya {
+//     font-family: 'alegreyaregular',helvetica;
+//     font-size: 50px;}
+
+// #droidiga {
+//     font-family: 'droidigaregular',georgia;
+//     font-size: 50px;}
+
+// #eagle {
+//     font-family: 'eagle_bookregular',georgia;
+//     font-size: 50px;}
+
+// #futura {
+//     font-family: 'futura_md_btbold',georgia;
+//     font-size: 50px;}
+
+// #gibson {
+//     font-family: 'gibsonbold', georgia;
+//     font-size: 50px;}

@@ -1,0 +1,74 @@
+/*
+* SASSkeleton Grid System
+* Rewrite of Skeleton Grid System developed by Dave Gamache
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 1/31/2015
+* Sam Grimes
+*/
+
+
+
+/* Grid
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+%container {
+  position: relative; 
+  width: 90%; 
+  margin: 0 auto; 
+  padding: 0; }
+
+%column, %columns { 
+  float: left; 
+  width: 100%; 
+  box-sizing: border-box;
+
+  &:first-child{ margin-left: 0;} 
+}
+
+
+@media (min-width: 550px) {
+  
+%columns, 
+%column       { margin-left: 4%; }
+  
+%one          { width: 4.66666666667%; }
+%two          { width: 13.3333333333%; }
+%three        { width: 22%;            }
+%four         { width: 30.6666666667%; }
+%five         { width: 39.3333333333%; }
+%six          { width: 48%;            }
+%seven        { width: 56.6666666667%; }
+%eight        { width: 65.3333333333%; }
+%nine         { width: 74.0%;          }
+%ten          { width: 82.6666666667%; }
+%eleven       { width: 91.3333333333%; }
+%twelve       { width: 100%; margin-left: 0; }
+
+}
+
+/* Utilities
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+%first { margin-left: 0px }
+
+%clearfix,
+%row:after{ 
+  content: "";
+  display: table;
+  clear: both; }
+
+
+/* Larger than mobile */
+@media (min-width: 400px) {}
+
+/* Larger than phablet (also point when grid becomes active) */
+@media (min-width: 550px) {}
+
+/* Larger than tablet */
+@media (min-width: 750px) {}
+
+/* Larger than desktop */
+@media (min-width: 1000px) {}
+
+/* Larger than Desktop HD */
+@media (min-width: 1200px) {}

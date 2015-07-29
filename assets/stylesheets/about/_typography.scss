@@ -1,0 +1,23 @@
+
+
+
+#about .about-content {
+  h1{
+    font-family: $sctnfont;
+    text-transform: uppercase;
+    color: #f9f9f9;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: $pfont;
+    text-align: justify;
+    -moz-text-align-last: justify;
+    text-align-last: justify;
+    line-height: 2.6vw;
+    letter-spacing: 0.2vw;
+    font-size: 2.1vw;
+    color: #f9f9f9;
+  }
+}

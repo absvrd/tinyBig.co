@@ -1,0 +1,93 @@
+@media screen and (max-width: 676px){
+  .home-content {
+
+    position: relative;
+    height: 80%;
+    top: 0px;
+    -webkit-transform: translateY(60px);
+    -ms-transform: translateY(60px);
+    transform: translateY(60px);
+  
+    .branding-imagery {
+      height: 60%;
+      -webkit-transform: none; /* Safari and Chrome */
+      -moz-transform: none; /* Firefox */
+      -ms-transform: none; /* IE 9 */
+      -o-transform: none; /* Opera */
+      transform: none;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+
+
+      .image{
+        top: 0;
+        background-size: 100%;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+        height: 100%;
+        position: relative;
+        -webkit-transform: none; /* Safari and Chrome */
+        -moz-transform: none; /* Firefox */
+        -ms-transform: none; /* IE 9 */
+        -o-transform: none; /* Opera */
+
+      }
+    }
+  }
+
+  
+  .mantra{
+    height: 40%;
+    -webkit-transform: none; /* Safari and Chrome */
+    -moz-transform: none; /* Firefox */
+    -ms-transform: none; /* IE 9 */
+    -o-transform: none; /* Opera */
+    transform: none;
+    // background: yellow;
+    top: 0;
+    width: 100%;
+
+
+    .greeting-container {
+      
+      h2 {
+        font-size: 11.00vw;
+        letter-spacing: -0.8vw;
+        line-height: 10.3vw;
+      }
+
+      h3 {
+        font-size: 4.0vw;
+        letter-spacing: 0.7vw;
+        clear: both;
+        margin-top: 8%;
+      }
+      
+
+    }
+
+  }
+}
+
+@media screen and (max-width: 480px){
+  .mantra {
+    .greeting-container {
+      h2 {
+        font-size: 12.00vw;
+        letter-spacing: -0.5vw;
+        line-height: 12.3vw;
+      }
+
+      h3 {
+        font-size: 4.6vw;
+        letter-spacing: 0.7vw;
+        clear: both;
+        margin-top: 8%;
+      }
+    }
+  }
+}

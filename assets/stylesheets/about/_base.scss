@@ -1,0 +1,75 @@
+#about {
+  @extend %container;
+  height: 100%;
+  background: url('../img/lab-bg.png') center;
+
+  .about-content {
+    @extend %twelve, %columns;
+    display: block;
+    width: 100%;
+    height: 60%;
+    margin-top: 5%;
+    padding: 0 8%;
+
+    h1 {
+      margin-bottom: 2rem;
+
+    }
+  }
+
+  .about-technology {
+    @extend %twelve, %columns;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20%;
+    background: #ffcccc;
+
+    h2 {
+      background: #fb5e4d;
+      color: #f9f9f9;
+      font-family: 'gibsonbold', sans-serif;
+      text-transform: uppercase;
+      font-size: 1.6vw;
+      position: relative;
+      text-align: center;
+      width: 16%;
+      padding: 0.5rem 0;
+      top: 16%;
+      left: 14%;
+      margin-top: -1%;
+
+    }
+
+    .technology-box {
+      width: 80%;
+      margin: 0 auto;
+      height: 60%;
+      border: 6px dotted #fb5e4d;
+      
+
+      #icon-container {
+      
+        width: 50%;
+        height: 100%;
+        margin: auto;
+
+        .icon {
+          height: 100%;
+          width: auto;
+          float: left;
+          padding: 0 auto;
+          background: black;
+
+          img{
+            width: auto;
+            height: 100%;
+            vertical-align: middle;
+            display: inline-block;
+
+          }
+        }
+      }
+    }
+  }
+}
